@@ -4,18 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db7b0e9-8e57-4e32-87d8-da3e576948d2" name="Changes" comment="" />
+    <list default="true" id="0db7b0e9-8e57-4e32-87d8-da3e576948d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AllForUser/RegUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AllForUser/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AllForUser/UserSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/ForgotPasswordPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/PersonalAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/Links.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/WebDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AccountPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/238db5ed-fa8a-43db-98cb-2d9bd36f6eda-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/397e3198-d599-4be1-906a-57d446166629-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/505630b8-c28f-4e98-a2a7-7e04e18c14f9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/711ef7e1-0297-4753-a5d0-11874ca1c0f2-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/8cb60c76-e84e-44bc-8b0c-57533cf14773-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/973a8a23-9d2e-4d3e-b76b-e9a2d3f327fc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/a041275c-5fcd-4f97-8b09-e3a644f7e0c9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/a8b37964-da65-4e0e-83c1-5b5d5ca4b00a-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/ac2ea70a-357a-4f78-b699-be89a924c8fb-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/b6d4abc5-cd84-4dc2-83aa-4071a049bdcc-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/ba5a1259-1676-4578-8ae7-aa12cbf37c86-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f0e49337-f9d9-445c-8147-dcb6d7e35d04-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/allure-results/f3c8379c-1db7-4a8f-a8ca-4f5b0677b676-result.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jNLkxpOpRQqdBzGVrfYVJAMXOv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,12 +66,112 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.AccountPageTest.checkAccountProfile.executor": "Run",
+    "JUnit.AccountPageTest.logoutFromAccount.executor": "Run",
+    "JUnit.AccountPageTest.openConstructorFromProfile.executor": "Run",
+    "JUnit.AccountPageTest.openMainPageFromAccount.executor": "Run",
+    "JUnit.LoginTest.executor": "Run",
+    "JUnit.LoginTest.loginUserViaAccountProfileButton.executor": "Run",
+    "JUnit.LoginTest.loginUserViaLoginAccountButton.executor": "Run",
+    "JUnit.LoginTest.loginUserViaRegistrationPage.executor": "Run",
+    "JUnit.LoginTest.loginViaForgotPasswordPage.executor": "Run",
+    "JUnit.MainPageTest.bunTabShouldBeSelected.executor": "Run",
+    "JUnit.MainPageTest.executor": "Run",
+    "JUnit.MainPageTest.sauceTabShouldBeSelected.executor": "Run",
+    "JUnit.RegTest.dropDownList.executor": "Run",
+    "JUnit.RegistrationTest.executor": "Run",
+    "JUnit.RegistrationTest.registrationNegative.executor": "Run",
+    "JUnit.RegistrationTest.registrationTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "develop3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Tikho/Diplom_3-main/Diplom_3-main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tikho\Diplom\QA-java-diplom-3\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RegistrationTest.registrationTest">
+    <configuration name="AccountPageTest.checkAccountProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountPageTest" />
+      <option name="METHOD_NAME" value="checkAccountProfile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginUserViaAccountProfileButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="loginUserViaAccountProfileButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginUserViaLoginAccountButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="loginUserViaLoginAccountButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginUserViaRegistrationPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="METHOD_NAME" value="loginUserViaRegistrationPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest.registrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practicum" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest" />
+      <option name="METHOD_NAME" value="registrationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="QA-java-diplom-3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="QA-java-diplom-3" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegistrationTest.registrationTest" />
+        <item itemvalue="JUnit.LoginTest.loginUserViaAccountProfileButton" />
+        <item itemvalue="JUnit.AccountPageTest.checkAccountProfile" />
+        <item itemvalue="JUnit.LoginTest.loginUserViaLoginAccountButton" />
+        <item itemvalue="JUnit.LoginTest.loginUserViaRegistrationPage" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,5 +182,9 @@
       <updated>1721222736859</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
