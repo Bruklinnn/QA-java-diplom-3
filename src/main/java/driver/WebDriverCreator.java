@@ -34,12 +34,16 @@ public class WebDriverCreator {
     }
 
     public static WebDriver createYandexDriver() {
-        System.setProperty("webdriver.chrome.driver",
-                String.format("%s/%s", System.getenv("C:/Users/Tikho/.cache/selenium/chromedriver/win64/124.0.6367.207"),
-                        System.getenv("chromedriver")));
+        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.setBinary(System.getenv("C:/Users/Tikho/AppData/Local/Yandex/YandexBrowser/Application"));
         return new ChromeDriver(options);
     }
 }
-
+/*public static WebDriver createYandexDriver() {
+    System.setProperty("webdriver.chrome.driver",
+            String.format("%s/%s", System.getenv("C:/Users/Tikho/.cache/selenium/chromedriver/win64/124.0.6367.207"),
+                    System.getenv("yandexdriver.exe")));
+    ChromeOptions options = new ChromeOptions();
+    options.setBinary(System.getenv("C:/Users/Tikho/AppData/Local/Yandex/YandexBrowser/Application"));
+    return new ChromeDriver(options);*/
